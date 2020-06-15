@@ -3,6 +3,7 @@ class CreateLocations < ActiveRecord::Migration[6.0]
     create_table :locations do |t|
       t.float :longitude
       t.float :latitude
+      t.integer :counter_id
 
       t.timestamps
     end

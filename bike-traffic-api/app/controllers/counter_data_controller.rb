@@ -1,0 +1,2 @@
+class CounterDataController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class BikeTrailsCounter < ApplicationRecord
+end

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :bike_trails_counters
+  resources :counter_data
   resources :counters
   resources :locations
   resources :messages
